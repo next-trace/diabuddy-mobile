@@ -1,0 +1,36 @@
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Dependencies
+node_modules/
+
+# Native
+ios/Pods/
+ios/build/
+android/build/
+android/app/build/
+android/.gradle/
+*.keystore
+!debug.keystore
+
+# Env
+.env
+.env.local
+
+# System / editor
+.DS_Store
+*.log
+.idea
+.vscode
+.qodo
+
+# TypeScript incremental build info
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Override user-global `.scripts/*` so the committed local-CI helper is versioned with this repo.
+!.scripts/
+!.scripts/*

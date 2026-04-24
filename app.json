@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "DiaBuddy",
+    "slug": "diabuddy-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0E2A47"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0E2A47"
+      },
+      "package": "com.anonymous.diabuddymobile"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
