@@ -12,8 +12,8 @@ importers:
         specifier: ~5.0.5
         version: 5.0.5(react-native@0.79.6(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.0.0))
       '@next-trace/diabuddy-design-system':
-        specifier: github:next-trace/diabuddy-design-system#v0.1.1
-        version: https://codeload.github.com/next-trace/diabuddy-design-system/tar.gz/5173387c7aa15f8683209296ae41cc8ed4f3543d(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: github:next-trace/diabuddy-design-system#v0.1.2
+        version: https://codeload.github.com/next-trace/diabuddy-design-system/tar.gz/7615547cbcaa3782d2d04bdab37f68e2e9432c40(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       expo:
         specifier: ~53.0.20
         version: 53.0.27(@babel/core@7.29.0)(@expo/metro-runtime@5.0.5(react-native@0.79.6(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.0.0)))(react-native@0.79.6(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.0.0))(react@19.0.0)
@@ -687,9 +687,9 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@next-trace/diabuddy-design-system@https://codeload.github.com/next-trace/diabuddy-design-system/tar.gz/5173387c7aa15f8683209296ae41cc8ed4f3543d':
-    resolution: {tarball: https://codeload.github.com/next-trace/diabuddy-design-system/tar.gz/5173387c7aa15f8683209296ae41cc8ed4f3543d}
-    version: 0.1.1
+  '@next-trace/diabuddy-design-system@https://codeload.github.com/next-trace/diabuddy-design-system/tar.gz/7615547cbcaa3782d2d04bdab37f68e2e9432c40':
+    resolution: {tarball: https://codeload.github.com/next-trace/diabuddy-design-system/tar.gz/7615547cbcaa3782d2d04bdab37f68e2e9432c40}
+    version: 0.1.2
     engines: {node: '>=18'}
     peerDependencies:
       react: '>=18.2 <20'
@@ -3551,7 +3551,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@next-trace/diabuddy-design-system@https://codeload.github.com/next-trace/diabuddy-design-system/tar.gz/5173387c7aa15f8683209296ae41cc8ed4f3543d(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@next-trace/diabuddy-design-system@https://codeload.github.com/next-trace/diabuddy-design-system/tar.gz/7615547cbcaa3782d2d04bdab37f68e2e9432c40(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       react: 19.0.0
     optionalDependencies:
