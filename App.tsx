@@ -21,7 +21,7 @@ export default function App() {
       <StatusBar style="light" />
       <ScrollView contentContainerStyle={styles.scroll}>
         <View style={styles.hero}>
-          <Text style={styles.eyebrow}>DIA BUDDY MOBILE</Text>
+          <Text style={styles.eyebrow}>NEXDOZ MOBILE</Text>
           <Text style={styles.title}>Diabetes Care Companion</Text>
           <Text style={styles.subtitle}>
             Timeline-first tracking, meal AI scan, and clinician-ready summaries.
