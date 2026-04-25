@@ -15,4 +15,4 @@ COPY . .
 
 EXPOSE 19006
 
-CMD ["pnpm", "--filter", "@diabuddy/mobile", "exec", "expo", "start", "--web", "--port", "19006", "--host", "lan"]
+CMD ["pnpm", "--filter", "@nexdoz/mobile", "exec", "expo", "start", "--web", "--port", "19006", "--host", "lan"]

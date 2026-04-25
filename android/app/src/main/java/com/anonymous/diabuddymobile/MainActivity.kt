@@ -1,4 +1,4 @@
-package com.anonymous.diabuddymobile
+package com.anonymous.nexdozmobile
 
 import android.os.Build
 import android.os.Bundle

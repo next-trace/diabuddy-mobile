@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DiaBuddy",
-    "slug": "diabuddy-mobile",
+    "name": "Nexdoz",
+    "slug": "nexdoz-mobile",
     "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0E2A47"
       },
-      "package": "com.anonymous.diabuddymobile"
+      "package": "com.anonymous.nexdozmobile"
     },
     "web": {
       "favicon": "./assets/favicon.ico",
