@@ -1,5 +1,5 @@
 {
-  "name": "@next-trace/diabuddy-mobile",
+  "name": "@next-trace/nexdoz-mobile",
   "version": "0.1.0",
   "private": true,
   "main": "expo/AppEntry.js",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.5",
-    "@next-trace/diabuddy-design-system": "github:next-trace/diabuddy-design-system#v0.1.2",
+    "@next-trace/nexdoz-design-system": "github:next-trace/nexdoz-design-system#v0.2.0",
     "expo": "~53.0.20",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",

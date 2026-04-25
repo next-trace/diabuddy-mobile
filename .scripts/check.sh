@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Local pre-commit verification for diabuddy-mobile.
+# Local pre-commit verification for nexdoz-mobile.
 # Expo builds are run via EAS; CI only typechecks.
 
 set -euo pipefail

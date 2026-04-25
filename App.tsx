@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, ScrollView, StyleSheet, Text, View, Pressable } from 'react-native';
-import { tokens } from '@next-trace/diabuddy-design-system';
+import { tokens } from '@next-trace/nexdoz-design-system';
 
 const palette = {
   bgA: '#0A1F3F',

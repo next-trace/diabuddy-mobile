@@ -1,6 +1,6 @@
-# @next-trace/diabuddy-mobile
+# @next-trace/nexdoz-mobile
 
-DiaBuddy mobile app — Expo 53, React Native 0.79, React 19. Thin client — business logic lives in the BE (`next-trace/diabuddy-user-api`).
+Nexdoz mobile app — Expo 53, React Native 0.79, React 19. Thin client — business logic lives in the BE (`next-trace/nexdoz-user-api`).
 
 ## Development
 
@@ -18,4 +18,4 @@ Use EAS Build (`eas build --platform ios|android`) — not GitHub Actions.
 
 ## Dependencies
 
-- `@next-trace/diabuddy-design-system` — tokens + logo assets only (no React primitives; RN provides its own). Installed via GitHub tag (`github:next-trace/diabuddy-design-system#vX.Y.Z`).
+- `@next-trace/nexdoz-design-system` — tokens + logo assets only (no React primitives; RN provides its own). Installed via GitHub tag (`github:next-trace/nexdoz-design-system#vX.Y.Z`).
