@@ -34,3 +34,6 @@ tsconfig.tsbuildinfo
 # Override user-global `.scripts/*` so the committed local-CI helper is versioned with this repo.
 !.scripts/
 !.scripts/*
+
+# Play Console service account (per EAS_BUILD.md)
+play-service-account.json

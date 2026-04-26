@@ -13,14 +13,25 @@
     },
     "ios": {
       "supportsTablet": true,
-      "icon": "./assets/icon.png"
+      "icon": "./assets/icon.png",
+      "bundleIdentifier": "com.nexdoz.mobile",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0E2A47"
       },
-      "package": "com.anonymous.nexdozmobile"
+      "package": "com.nexdoz.mobile",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID_AFTER_eas_init"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.ico",

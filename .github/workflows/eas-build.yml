@@ -1,0 +1,67 @@
+name: EAS Build
+
+# Manual trigger for now (production builds cost EAS credits + Apple/Play
+# review time). Once cadence is settled, can wire to tag push.
+#
+# Required repo secret:
+#   EXPO_TOKEN — generate at https://expo.dev/accounts/<you>/settings/access-tokens
+
+on:
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: "EAS build profile"
+        required: true
+        default: "preview"
+        type: choice
+        options:
+          - development
+          - preview
+          - production
+      platform:
+        description: "Target platform"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - ios
+          - android
+          - all
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Setup EAS
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Build (non-interactive)
+        run: |
+          eas build \
+            --platform ${{ github.event.inputs.platform }} \
+            --profile ${{ github.event.inputs.profile }} \
+            --non-interactive \
+            --no-wait
